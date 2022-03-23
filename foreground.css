@@ -1,0 +1,22 @@
+.extension_button {
+	border: none;
+	background: white;
+	border-radius: 10px;
+	border: 2px solid black;
+	font-weight: bolder;
+	padding: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.extension_button:hover {
+	box-shadow: 1px 0px 10px #eee;
+}
+
+.extension_button_cont {
+	position: fixed;
+	width: 100%;
+	padding: 10px;
+	bottom: 0px;
+	left: 0px;
+}

@@ -1,0 +1,16 @@
+{
+	"manifest_version": 3,
+	"name": "XingAutomator",
+	"description": "Automate Searching for more employees",
+	"version": "1.0",
+	"icons": {
+		"128": "/images/automation.png"
+	},
+	"permissions": [ "storage", "activeTab", "scripting", "tabs" ],
+	"host_permissions": [ "https://www.xing.com/*" ],
+
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {}
+}
